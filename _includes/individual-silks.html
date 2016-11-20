@@ -5,7 +5,7 @@
     {% for image in page.images %}
       <div class="col-md-4 col-sm-3 col-xs-6">
         <p>{{image.title}}</p>
-        <img src="{{image.image_path}}" class="img-responsive" alt="{{image.title}}">
+        <img src="{{image.image_path}}" class="img-responsive lightbox" alt="{{image.title}}">
       </div>
     {% endfor %}
   </div>
