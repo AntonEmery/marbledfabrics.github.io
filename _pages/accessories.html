@@ -20,7 +20,7 @@ images:
     <!-- Loops through images -->
     {% for image in page.images %}
       <div class="col-md-6 col-sm-6 col-xs-6">
-        <img src="{{image.image_path}}" alt="{{image.title}}" class="img-responsive">
+        <a href="{{image.link}}"><img src="{{image.image_path}}" alt="{{image.title}}" class="img-responsive"></a>
         <a href="{{image.link}}"><p>{{image.title}}</p></a>
       </div>
     {% endfor %}
