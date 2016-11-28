@@ -4,7 +4,6 @@ body {
   font-family: Helvetica, Arial, Verdana, "Bitstream Vera Sans", sans-serif;
 }
 
-
 .container-fluid {
   max-width: 960px;
 }
@@ -18,7 +17,7 @@ footer .container-fluid {
 }
 
 footer {
-  margin-top: 60vh;
+  margin-top: 30vh;
 }
 /* fonts */
 h1 {
@@ -32,7 +31,7 @@ h1, h2 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 /* Links */
@@ -45,14 +44,11 @@ a:hover {
   color: #DFB579;
 }
 
-
-
 a:visited {
   text-decoration: none;
 }
 
 /* sidebar */
-
 aside ul {
   list-style-type: none;
   padding-left: 0;
@@ -89,13 +85,11 @@ aside h2:before {
 }
 
 /* Right Aside */
-
 aside p {
   margin-top: 7%;
 }
 
 /* Header */
-
 header {
   margin-left: 15px;
   margin-right: 15px;
@@ -154,7 +148,6 @@ h1 a, h1 a:hover {
 }
 
 /* Catalog on main page */
-
 .catalog .row * {
   text-align: center;
 }
@@ -228,13 +221,11 @@ h1 a, h1 a:hover {
   }
 
 /* Technique page */
-
 .technique img {
   margin-bottom: 10%;
 }
 
 /* Lightbox */
-
 .overlay {
   position: fixed;
   width: 100%;
@@ -257,13 +248,17 @@ h1 a, h1 a:hover {
 .lightbox-content img {
   border: 4px solid white;
 }
-img.lightbox {
+
+img.lightbox, .lightbox-content p {
   cursor: pointer;
+}
+
+.lightbox-content p {
+  font-size: 1em;
 }
 
 
 /* Media Queries */
-
 @media (max-width: 991px) {
     aside h2 {
       margin-left: 10px;
