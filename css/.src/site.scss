@@ -253,6 +253,10 @@ img.lightbox, .lightbox-content p {
   cursor: pointer;
 }
 
+.lightbox-content p {
+  font-size: 1em;
+}
+
 
 /* Media Queries */
 @media (max-width: 991px) {
